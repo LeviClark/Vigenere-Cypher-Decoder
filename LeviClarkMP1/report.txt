@@ -1,0 +1,26 @@
+Levi Clark
+Mini Project 1
+
+
+To Run Program: make test
+
+During Execution: Program will prompt user to enter a value for which problem to solve.
+
+To test another problem, run make test again and enter a new number. Program doesn't loop.
+
+
+NOTE:
+  Problem 5, with keyLength = 6, will not run. I get a bad_alloc error, saying i haven't allocated enough memory to the program.
+  
+  
+FINDINGS:
+	1: CAESARS WIFE MUST BE ABOVE SUSPICION
+	2: FORTUNE WHICH HAS A GREAT DEAL OF POWER IN OTHER MATTERS BUT 
+		ESPECIALLY IN WAR CAN BRING ABOUT GREAET CHANGES IN A
+		SITUATION THROUGH VERY SLIGHT FORCES
+	3: EXPERIENCE IS THE TEACHER OF ALL THINGS
+	4: IMAGINATION IS MORE IMPORTANT THAN KNOWLEDGE
+	5: not enough space to run properly, but it's no different than the 			previous ones
+	
+	I decided to store the dictionary in a map that kept track of the 
+	word, as well as it's length. This is so I don't have to search the 		dictionary every single time for words of the correct length.
